@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2"
+  },
+  "name": "mystory",
+  "version": "1.0.0",
+  "description": "it is where you can tell your story with no fear of people knowing who you are",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahomAl/MyStory.git"
+  },
+  "author": "Nahom Alemu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahomAl/MyStory/issues"
+  }
+}
