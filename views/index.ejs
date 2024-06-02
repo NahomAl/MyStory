@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sacramento&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Styles/home.css">
 </head>
 <body>
     <header><%- include("partials/header.ejs")%></header>
     <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" height="172px" ">
-    <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
-    <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-            popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3" fdprocessedid="vuyrop">Tell My Story</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="0mtmb">Read Storys</button>
+        <h1 id="title">What's Your Story</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4 roboto-condensed">Welcome to <b>My<u>Stor</u>y</b>, a safe and anonymous platform to share your stories. Here, you can unburden your heart,
+            connect with others, and find solace without revealing your identity. Join our supportive community today and let your
+            voice be heard. Your story matters..</p>
         </div>
-    </div>
-</div>
-
+        <div class="container py-4">
+            <div class="p-5 mb-4 write border rounded-3">
+                <div class="container-fluid py-4">
+                    <h1 class="display-5 fw-bold">Write Your Storys</h1>
+                    <p class=" fs-4">your safe and anonymous space to share your written stories. Whether you seek healing,
+                        connection, or simply a place to be heard, our platform offers a secure environment to express yourself freely. Join our
+                        supportive community today and let your writing make an impact. Your story matters.</p>
+                    <button class="btn btn-outline-light btn-lg my-3" type="button"><b>Write Your Storys</b></button>
+                </div>
+            </div>
+            <div class="p-5 mb-4 read border rounded-3">
+                <div class="container-fluid py-4">
+                    <h1 class="display-5 fw-bold">Read There Storys</h1>
+                    <p class=" fs-4">your destination for reading heartfelt, anonymous stories. Dive into a diverse collection of
+                        personal experiences, connect with the emotions of others, and find solace in shared human experiences. Join our
+                        community today and discover stories that resonate with you. Every story matters.</p>
+                    <button class="btn btn-outline-light btn-lg my-3" type="button"><b>Read Storys</b></button>
+                </div>
+            </div>
+        </div>
     <footer ><%- include("partials/footer.ejs")%></footer>
 </body>
 </html>
