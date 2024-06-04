@@ -1,0 +1,19 @@
+#write-story{
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+#write-title {
+    color: #FFFFFF !important;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+.border-button{
+    border-radius: 3;
+
+}
+::placeholder{
+    color: #FFFFFF !important;
+}

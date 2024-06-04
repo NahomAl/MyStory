@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="Styles/writeStory.css">
+    </head>
+
+    <body>
+        <header><%- include("partials/header.ejs")%></header>
+        <form action="/writeStory/submit" method="post">
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 id="write-title" class="mb-5">Your Storys</h1>
+                <div class="col-lg-3  mx-auto">
+                    <input type="text" class="form-control" id="write-story" name="title" disabled="true" placeholder="<%= title%>" cols="6" required>
+                </div>
+                <div class="container py-4 col-lg-6">
+                    <textarea type="text" class="form-control write" id="write-story" name="story" disabled="true" rows="12"><%=story%></textarea>
+                </div>
+            </div>
+        </form>
+        <footer><%- include("partials/footer.ejs")%></footer>
+    </body>
+
+</html>

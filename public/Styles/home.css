@@ -4,7 +4,7 @@ body {
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
     height: 100vh;
-    color: #F0F3FF !important;
+    color: #F0F3FF ;
 }
 
 @keyframes gradient {
@@ -29,7 +29,7 @@ body {
     font-size: 20rem;
 }
 .nav-link {
-    color: #F0F3FF !important;
+    color: #F0F3FF;
 }
 
 
@@ -38,21 +38,21 @@ body {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    font-size: 1.8rem !important;
+    font-size: 1.8rem;
 }
 
 .white-icon {
-    color: white !important;
+    color: white;
 }
 .write{
     background: linear-gradient(-45deg, #decf24, #ff35b2, #b300ffbb, #23d5ab);
         background-size: 400% 400%;
         animation: gradient 10s ease infinite;
-        color: white !important;
+        color: white;
 }
 .read {
     background: linear-gradient(-45deg, #23d5ab, #b300ffbb, #ff35b2, #decf24);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
-    color: white !important;
+    color: white;
 }

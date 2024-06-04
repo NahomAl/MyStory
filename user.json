@@ -1,0 +1,4 @@
+{
+  "title": "HashMap put() Method in Java",
+  "story": "The java.util.HashMap.put() method of HashMap is used to insert a mapping into a map. This means we can insert a specific key and the value it is mapping to into a particular map. If an existing key is passed then the previous value gets replaced by the new value. If a new pair is passed, then the pair gets inserted as a whole.\r\n\r\nSyntax:  Hash_Map.put(key, value)\r\nParameters: The method takes two parameters, both are of the Object type of the HashMap. \r\n\r\nkey: This refers to the key element that needs to be inserted into the Map for mapping.\r\nvalue: This refers to the value that the above key would map into.\r\nReturn Value: If an existing key is passed then the previous value gets returned. If a new pair is passed, then NULL is returned.\r\nBelow programs are used to illustrate the working of java.util.HashMap.put() Method: \r\nProgram 1: When passing an existing key. "
+}
